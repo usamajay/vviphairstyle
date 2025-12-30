@@ -1,0 +1,84 @@
+{
+    "HomePage": {
+        "title": "Gents Barber Shop",
+        "subtitle": "Premium Grooming for the Modern Man",
+        "bookBtn": "Book Appointment",
+        "servicesTitle": "Our Services",
+        "hoursTitle": "Opening Hours",
+        "locationTitle": "Find Us",
+        "reviewsTitle": "Client Reviews",
+        "heroCta": "Book Your Cut",
+        "heroSub": "Experience the art of traditional grooming with modern style in the heart of Muscat."
+    },
+    "Navigation": {
+        "home": "Home",
+        "services": "Services",
+        "about": "About",
+        "contact": "Contact",
+        "book": "Book Now"
+    },
+    "Footer": {
+        "copyright": "© 2024 Gents Barber Shop. All rights reserved.",
+        "privacy": "Privacy Policy",
+        "poweredBy": "Powered By"
+    },
+    "ServicesPage": {
+        "title": "Our Services",
+        "currency": "OMR",
+        "bookService": "Book",
+        "list": {
+            "haircut": {
+                "name": "Classic Haircut",
+                "duration": "30 mins",
+                "price": "3.0"
+            },
+            "beard": {
+                "name": "Beard Trim & Shape",
+                "duration": "15 mins",
+                "price": "1.5"
+            },
+            "package": {
+                "name": "Full Grooming Package",
+                "duration": "45 mins",
+                "price": "4.0"
+            },
+            "kids": {
+                "name": "Kids Haircut",
+                "duration": "20 mins",
+                "price": "2.5"
+            },
+            "facial": {
+                "name": "Facial Treatment",
+                "duration": "30 mins",
+                "price": "5.0"
+            }
+        }
+    },
+    "AboutPage": {
+        "title": "About Us",
+        "storyTitle": "Our Story",
+        "storyText": "Welcome to Gents Barber Shop, where tradition meets modern style. Established with a passion for grooming, we provide a relaxing atmosphere for the men of Muscat using only the finest products.",
+        "teamTitle": "Our Barbers",
+        "teamText": "Our team of experienced barbers are skilled in both classic and contemporary styles."
+    },
+    "ContactPage": {
+        "title": "Contact Us",
+        "addressTitle": "Location",
+        "address": "Al Khoudh, Muscat, Oman",
+        "phoneTitle": "Phone",
+        "phone": "+968 1234 5678",
+        "hoursTitle": "Working Hours",
+        "hours": "Sat-Thu: 10:00 AM - 10:00 PM\nFri: 2:00 PM - 10:00 PM",
+        "whatsapp": "Chat on WhatsApp"
+    },
+    "BookPage": {
+        "title": "Book Appointment",
+        "instruction": "Select your service and preferred time below.",
+        "loading": "Loading booking system..."
+    },
+    "TopBar": {
+        "timings": "10:00 AM - 10:00 PM",
+        "days": "Saturday - Friday",
+        "callUs": "Call Us"
+    }
+}
