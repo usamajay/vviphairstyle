@@ -130,8 +130,9 @@ export default function Home() {
                             <MapPin className="w-8 h-8 text-gold-600 shrink-0 mt-1" />
                             <div>
                                 <h3 className="text-xl font-bold mb-2">{t('locationTitle')}</h3>
-                                <p className="text-neutral-600 leading-relaxed mb-4">
-                                    Al Khoudh, Way 1234<br />Muscat, Sultanate of Oman
+                                <p className="text-neutral-400">
+                                    Afaq Digital Signs PG5R+GF5, Ibra<br />
+                                    Oman Muscat, Ad Dakhiliyah Governorate
                                 </p>
                                 <Link href="/contact" className="text-gold-600 underline decoration-gold-200 underline-offset-4 hover:decoration-gold-600 transition-all">Get Directions</Link>
                             </div>
