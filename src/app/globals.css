@@ -97,3 +97,17 @@ h6 {
 ::-webkit-scrollbar-thumb {
   @apply bg-gold-500 rounded-full hover:bg-gold-600;
 }
+
+
+/* Booking Section Styles */
+.booking-section {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 16px;
+}
+
+.booking-section iframe {
+  border-radius: 12px;
+  background: #fff;
+  border: none;
+}

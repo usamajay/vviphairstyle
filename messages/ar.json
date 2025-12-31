@@ -15,9 +15,15 @@
         "services": "الخدمات",
         "about": "من نحن",
         "contact": "اتصل بنا",
+        "gallery": "الإطلالات",
         "book": "احجز الآن"
     },
+    "GalleryPage": {
+        "title": "إطلالات جنتس",
+        "subtitle": "تشكيلة مختارة من أرقى القصات للكبار."
+    },
     "Footer": {
+        "gallery": "الإطلالات",
         "copyright": "© 2024 صالون جنتس للحلاقة. جميع الحقوق محفوظة.",
         "privacy": "سياسة الخصوصية",
         "poweredBy": "مشغل بواسطة"
@@ -64,7 +70,7 @@
     "ContactPage": {
         "title": "اتصل بنا",
         "addressTitle": "موقعنا",
-        "address": "الخوض، مسقط، عمان",
+        "address": "Afaq Digital Signs PG5R+GF5, Ibra, Oman Muscat, Ad Dakhiliyah Governorate",
         "phoneTitle": "الهاتف",
         "phone": "+968 1234 5678",
         "hoursTitle": "ساعات العمل",

@@ -5,6 +5,7 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import FloatingWhatsApp from '@/components/FloatingWhatsApp';
 import "../globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
@@ -39,6 +40,7 @@ export default async function RootLayout({
                 <NextIntlClientProvider messages={messages}>
                     <Navbar locale={lang} />
                     {children}
+                    <FloatingWhatsApp />
                     <Footer />
                 </NextIntlClientProvider>
             </body>

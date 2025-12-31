@@ -15,9 +15,15 @@
         "services": "Services",
         "about": "About",
         "contact": "Contact",
+        "gallery": "Lookbook",
         "book": "Book Now"
     },
+    "GalleryPage": {
+        "title": "The Lookbook",
+        "subtitle": "Curated styles for the distinguished gentleman."
+    },
     "Footer": {
+        "gallery": "Lookbook",
         "copyright": "© 2024 Gents Barber Shop. All rights reserved.",
         "privacy": "Privacy Policy",
         "poweredBy": "Powered By"
@@ -64,7 +70,7 @@
     "ContactPage": {
         "title": "Contact Us",
         "addressTitle": "Location",
-        "address": "Al Khoudh, Muscat, Oman",
+        "address": "Afaq Digital Signs PG5R+GF5, Ibra, Oman Muscat, Ad Dakhiliyah Governorate",
         "phoneTitle": "Phone",
         "phone": "+968 1234 5678",
         "hoursTitle": "Working Hours",

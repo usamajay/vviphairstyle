@@ -24,6 +24,7 @@ export default function Navbar({ locale }: { locale: string }) {
     const links = [
         { href: '/', label: t('home') },
         { href: '/services', label: t('services') },
+        { href: '/lookbook', label: t('gallery') },
         { href: '/about', label: t('about') },
         { href: '/contact', label: t('contact') },
     ];

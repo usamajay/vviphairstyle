@@ -1,29 +1,33 @@
-import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
 
 export default function BookPage({ searchParams }: { searchParams: { service?: string } }) {
-    const t = useTranslations('BookPage');
+    const locale = useLocale();
+    const isRtl = locale === 'ar';
 
     return (
-        <main className="min-h-screen pt-32 pb-24 bg-primary-900">
-            <div className="container mx-auto px-6 md:px-12 max-w-5xl flex flex-col items-center">
+        <main className="min-h-screen pt-32 pb-24 bg-primary-900" dir={isRtl ? 'rtl' : 'ltr'}>
+            <div className="booking-section">
                 <div className="text-center mb-12 animate-fade-in">
-                    <h1 className="text-4xl md:text-5xl font-serif font-bold text-neutral-900 mb-6">{t('title')}</h1>
-                    <p className="text-neutral-600 text-lg">{t('instruction')}</p>
+                    {isRtl ? (
+                        <>
+                            <h1 className="text-4xl md:text-5xl font-serif font-bold text-neutral-900 mb-6">احجز موعدك الآن</h1>
+                            <p className="text-neutral-600 text-lg">اختر الخدمة والحلاق والوقت المناسب لك</p>
+                        </>
+                    ) : (
+                        <>
+                            <h1 className="text-4xl md:text-5xl font-serif font-bold text-neutral-900 mb-6">Book Your Appointment</h1>
+                            <p className="text-neutral-600 text-lg">Select service, barber, and multiple services if needed</p>
+                        </>
+                    )}
                 </div>
 
-                <div className="w-full h-[800px] bg-white rounded-2xl overflow-hidden shadow-2xl shadow-black/5 border border-neutral-200 relative">
-                    <div className="absolute inset-0 flex items-center justify-center text-neutral-400 bg-neutral-50 -z-10">
-                        {t('loading')}
-                    </div>
-
+                <div className="w-full h-[900px] bg-white rounded-2xl overflow-hidden shadow-2xl shadow-black/5 border border-neutral-200 relative">
                     <iframe
-                        src="https://gentlemenbarbershop.setmore.com"
-                        width="100%"
-                        height="100%"
-                        style={{ border: 0 }}
+                        src="https://gentsbarbershop.setmore.com"
+                        loading="lazy"
+                        style={{ width: '100%', height: '900px', border: 'none' }}
                         title="Setmore Booking"
-                        className="relative z-10"
-                    />
+                    ></iframe>
                 </div>
             </div>
         </main>

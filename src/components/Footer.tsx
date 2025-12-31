@@ -6,7 +6,7 @@ export default function Footer() {
     const t = useTranslations('Footer');
 
     return (
-        <footer className="w-full bg-black border-t border-neutral-800 pt-16 pb-8 text-neutral-400">
+        <footer className="w-full bg-black border-t border-neutral-800 pt-16 pb-8 text-neutral-200">
             <div className="container mx-auto px-6 md:px-12">
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
 
@@ -18,7 +18,7 @@ export default function Footer() {
                             </div>
                             <span className="font-serif text-2xl font-bold text-white tracking-wider">GENTS</span>
                         </div>
-                        <p className="text-sm leading-relaxed max-w-xs text-neutral-500">
+                        <p className="text-sm leading-relaxed max-w-xs text-neutral-400">
                             Premium grooming experiences for the modern gentleman in Muscat. Experience tradition redefined.
                         </p>
                     </div>
@@ -27,20 +27,21 @@ export default function Footer() {
                     <div className="flex flex-col gap-4">
                         <h4 className="text-white font-bold uppercase tracking-widest text-sm">Quick Links</h4>
                         <div className="flex flex-col gap-2">
-                            <Link href="/services" className="hover:text-gold-500 transition-colors">Services & Pricing</Link>
-                            <Link href="/book" className="hover:text-gold-500 transition-colors">Book Appointment</Link>
-                            <Link href="/contact" className="hover:text-gold-500 transition-colors">Location & Contact</Link>
+                            <Link href="/services" className="hover:text-gold-500 transition-colors text-white">Services & Pricing</Link>
+                            <Link href="/lookbook" className="hover:text-gold-500 transition-colors text-white">{t('gallery')}</Link>
+                            <Link href="/book" className="hover:text-gold-500 transition-colors text-white">Book Appointment</Link>
+                            <Link href="/contact" className="hover:text-gold-500 transition-colors text-white">Location & Contact</Link>
                         </div>
                     </div>
 
                     {/* Contact Preview */}
                     <div className="flex flex-col gap-4">
                         <h4 className="text-white font-bold uppercase tracking-widest text-sm">Contact</h4>
-                        <div className="flex items-center gap-3 text-sm">
+                        <div className="flex items-center gap-3 text-sm text-white">
                             <MapPin className="h-4 w-4 text-gold-500" />
-                            <span>Al Khoudh, Muscat, Oman</span>
+                            <span>Afaq Digital Signs PG5R+GF5, Ibra, Oman Muscat, Ad Dakhiliyah Governorate</span>
                         </div>
-                        <div className="flex items-center gap-3 text-sm">
+                        <div className="flex items-center gap-3 text-sm text-white">
                             <Phone className="h-4 w-4 text-gold-500" />
                             <span>+968 1234 5678</span>
                         </div>
@@ -56,7 +57,7 @@ export default function Footer() {
                         </p>
                     </div>
                     <div className="flex items-center gap-6">
-                        <Link href="/privacy" className="hover:text-gold-500 transition-colors">{t('privacy')}</Link>
+                        <Link href="/privacy" className="hover:text-gold-500 transition-colors text-neutral-400">{t('privacy')}</Link>
                         <a href="#" className="hover:text-gold-500 transition-colors"><Instagram className="h-5 w-5" /></a>
                     </div>
                 </div>
