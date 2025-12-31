@@ -23,6 +23,7 @@ export default function Marquee({
                 className={`flex shrink-0 gap-4 py-4 min-w-full ${pauseOnHover ? 'hover:[animation-play-state:paused]' : ''}`}
                 style={{
                     animation: `scroll-${direction} ${speed}s linear infinite`,
+                    willChange: 'transform',
                 }}
             >
                 {children}
@@ -31,6 +32,7 @@ export default function Marquee({
                 className={`flex shrink-0 gap-4 py-4 min-w-full ${pauseOnHover ? 'hover:[animation-play-state:paused]' : ''}`}
                 style={{
                     animation: `scroll-${direction} ${speed}s linear infinite`,
+                    willChange: 'transform',
                 }}
                 aria-hidden="true"
             >
