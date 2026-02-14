@@ -35,8 +35,8 @@ export default function ContactPage() {
                                 <div>
                                     <h3 className="text-xl font-bold text-neutral-900 mb-2 font-serif">{t('phoneTitle')}</h3>
                                     <a href="tel:+96812345678" className="text-xl text-neutral-600 hover:text-gold-600 transition-colors block mb-2">{t('phone')}</a>
-                                    <a href="mailto:info@gentsbarber.om" className="flex items-center gap-2 text-sm text-neutral-500 hover:text-neutral-900 transition-colors">
-                                        <Mail className="w-4 h-4" /> info@gentsbarber.om
+                                    <a href="mailto:vviphairstyle@gmail.com" className="flex items-center gap-2 text-sm text-neutral-500 hover:text-neutral-900 transition-colors">
+                                        <Mail className="w-4 h-4" /> vviphairstyle@gmail.com
                                     </a>
                                 </div>
                             </div>

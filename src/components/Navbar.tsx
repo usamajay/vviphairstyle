@@ -52,7 +52,7 @@ export default function Navbar({ locale }: { locale: string }) {
                             {tTop('days')}
                         </span>
                     </div>
-                    <a href="tel:+96812345678" className="flex items-center gap-2 hover:text-white transition-colors">
+                    <a href="tel:+96890648949" className="flex items-center gap-2 hover:text-white transition-colors">
                         <Phone className="w-4 h-4" />
                         {tTop('callUs')}
                     </a>
