@@ -1,16 +1,15 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
-import { Scissors, Star, Zap, User, Sparkles } from 'lucide-react';
+import { Scissors, Star, Zap, User } from 'lucide-react';
 
 export default function ServicesPage() {
     const t = useTranslations('ServicesPage');
 
     const services = [
+        { key: 'package', icon: Star },
         { key: 'haircut', icon: Scissors },
         { key: 'beard', icon: Zap },
-        { key: 'package', icon: Star },
-        { key: 'kids', icon: User },
-        { key: 'facial', icon: Sparkles }
+        { key: 'kids', icon: User }
     ];
 
     return (
@@ -21,7 +20,7 @@ export default function ServicesPage() {
                     <div className="w-24 h-1 bg-gold-500 mx-auto rounded-full" />
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
                     {services.map(({ key, icon: Icon }) => (
                         <div key={key} className="group bg-white border border-neutral-200 rounded-xl p-8 hover:border-gold-400/50 hover:shadow-2xl hover:shadow-gold-900/5 transition-all duration-300">
                             <div className="flex justify-between items-start mb-6">

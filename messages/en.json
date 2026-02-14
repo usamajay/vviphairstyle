@@ -1,6 +1,6 @@
 {
     "HomePage": {
-        "title": "Gents Barber Shop",
+        "title": "VVIP Hairstyle",
         "subtitle": "Premium Grooming for the Modern Man",
         "bookBtn": "Book Appointment",
         "servicesTitle": "Our Services",
@@ -24,7 +24,7 @@
     },
     "Footer": {
         "gallery": "Lookbook",
-        "copyright": "© 2024 Gents Barber Shop. All rights reserved.",
+        "copyright": "© 2025 VVIP Hairstyle. All rights reserved.",
         "privacy": "Privacy Policy",
         "poweredBy": "Powered By"
     },
@@ -34,36 +34,31 @@
         "bookService": "Book",
         "list": {
             "haircut": {
-                "name": "Classic Haircut",
+                "name": "Haircut / Hairfade",
                 "duration": "30 mins",
-                "price": "3.0"
+                "price": "2.5"
             },
             "beard": {
-                "name": "Beard Trim & Shape",
-                "duration": "15 mins",
-                "price": "1.5"
+                "name": "Beard Cut / Beard Shave",
+                "duration": "20 mins",
+                "price": "2.0"
             },
             "package": {
-                "name": "Full Grooming Package",
+                "name": "Haircut & Beard Cut",
                 "duration": "45 mins",
                 "price": "4.0"
             },
             "kids": {
-                "name": "Kids Haircut",
+                "name": "Kids Cut",
                 "duration": "20 mins",
-                "price": "2.5"
-            },
-            "facial": {
-                "name": "Facial Treatment",
-                "duration": "30 mins",
-                "price": "5.0"
+                "price": "4.0"
             }
         }
     },
     "AboutPage": {
         "title": "About Us",
         "storyTitle": "Our Story",
-        "storyText": "Welcome to Gents Barber Shop, where tradition meets modern style. Established with a passion for grooming, we provide a relaxing atmosphere for the men of Muscat using only the finest products.",
+        "storyText": "Welcome to VVIP Hairstyle, where tradition meets modern style. Established with a passion for grooming, we provide a relaxing atmosphere for the men of Muscat using only the finest products.",
         "teamTitle": "Our Barbers",
         "teamText": "Our team of experienced barbers are skilled in both classic and contemporary styles."
     },

@@ -13,7 +13,7 @@ const cairo = Cairo({ subsets: ["arabic"], variable: '--font-cairo' });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair' });
 
 export const metadata: Metadata = {
-    title: "Gents Barber Shop | Muscat",
+    title: "VVIP Hairstyle | Muscat",
     description: "Premium Grooming for the Modern Man in Oman.",
 };
 

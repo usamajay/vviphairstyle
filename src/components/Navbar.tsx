@@ -41,7 +41,7 @@ export default function Navbar({ locale }: { locale: string }) {
         <header className="fixed top-0 z-50 w-full transition-all duration-300">
             {/* Top Bar */}
             <div className="bg-gold-500 text-neutral-900 py-2 text-xs md:text-sm font-medium tracking-wide">
-                <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row justify-between items-center gap-2">
+                <div className="container mx-auto px-4 md:px-6 flex flex-col md:flex-row justify-between items-center gap-2" suppressHydrationWarning>
                     <div className="flex items-center gap-6">
                         <span className="flex items-center gap-2">
                             <Clock className="w-4 h-4" />

@@ -68,17 +68,17 @@ export default function Home() {
                         </Link>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {/* Service Card 1 */}
                         <div className="group relative bg-white border border-neutral-200 p-8 rounded-xl hover:border-gold-400/50 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl">
                             <div className="w-14 h-14 bg-neutral-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-gold-500 transition-colors duration-500">
                                 <Scissors className="w-7 h-7 text-gold-600 group-hover:text-white transition-colors" />
                             </div>
-                            <h3 className="text-2xl font-serif font-bold text-neutral-900 mb-4">Precision Haircut</h3>
+                            <h3 className="text-2xl font-serif font-bold text-neutral-900 mb-4">Haircut/Hairfade</h3>
                             <p className="text-neutral-600 mb-8 leading-relaxed">
-                                Classic styling meets modern precision. Includes wash, hot towel finish, and expert styling advice.
+                                Expert precision for a sharp, modern look.
                             </p>
-                            <span className="text-gold-600 font-bold block">3.0 OMR</span>
+                            <span className="text-gold-600 font-bold block">2.5 OMR</span>
                             <div className="absolute bottom-0 left-0 w-full h-1 bg-gold-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
                         </div>
 
@@ -87,24 +87,37 @@ export default function Home() {
                             <div className="w-14 h-14 bg-neutral-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-gold-500 transition-colors duration-500">
                                 <Star className="w-7 h-7 text-gold-600 group-hover:text-white transition-colors" />
                             </div>
-                            <h3 className="text-2xl font-serif font-bold text-neutral-900 mb-4">Beard Sculpting</h3>
+                            <h3 className="text-2xl font-serif font-bold text-neutral-900 mb-4">Beard Cut/Shave</h3>
                             <p className="text-neutral-600 mb-8 leading-relaxed">
-                                Expert trimming, shaping, and razor lining to perfect your beard's profile.
+                                Professional trimming and shaping for a perfect beard.
                             </p>
-                            <span className="text-gold-600 font-bold block">1.5 OMR</span>
+                            <span className="text-gold-600 font-bold block">2.0 OMR</span>
                             <div className="absolute bottom-0 left-0 w-full h-1 bg-gold-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
                         </div>
 
                         {/* Service Card 3 */}
                         <div className="group relative bg-white border border-neutral-200 p-8 rounded-xl hover:border-gold-400/50 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl">
                             <div className="w-14 h-14 bg-neutral-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-gold-500 transition-colors duration-500">
+                                <Scissors className="w-7 h-7 text-gold-600 group-hover:text-white transition-colors" />
+                            </div>
+                            <h3 className="text-2xl font-serif font-bold text-neutral-900 mb-4">Haircut & Beard</h3>
+                            <p className="text-neutral-600 mb-8 leading-relaxed">
+                                Complete grooming package for hair and beard.
+                            </p>
+                            <span className="text-gold-600 font-bold block">4.0 OMR</span>
+                            <div className="absolute bottom-0 left-0 w-full h-1 bg-gold-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
+                        </div>
+
+                        {/* Service Card 4 */}
+                        <div className="group relative bg-white border border-neutral-200 p-8 rounded-xl hover:border-gold-400/50 transition-all duration-500 hover:-translate-y-1 hover:shadow-xl">
+                            <div className="w-14 h-14 bg-neutral-100 rounded-lg flex items-center justify-center mb-6 group-hover:bg-gold-500 transition-colors duration-500">
                                 <Star className="w-7 h-7 text-gold-600 group-hover:text-white transition-colors" />
                             </div>
-                            <h3 className="text-2xl font-serif font-bold text-neutral-900 mb-4">Royal Package</h3>
+                            <h3 className="text-2xl font-serif font-bold text-neutral-900 mb-4">Kids Cut</h3>
                             <p className="text-neutral-600 mb-8 leading-relaxed">
-                                The ultimate grooming experience. Haircut, beard trim, facial, and head massage.
+                                Gentle and stylish cuts for the little ones.
                             </p>
-                            <span className="text-gold-600 font-bold block">6.0 OMR</span>
+                            <span className="text-gold-600 font-bold block">4.0 OMR</span>
                             <div className="absolute bottom-0 left-0 w-full h-1 bg-gold-500 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left" />
                         </div>
                     </div>
@@ -155,32 +168,7 @@ export default function Home() {
                 </div>
             </section>
 
-            {/* Reviews Section (Light) */}
-            <section className="py-32 bg-primary-900 border-t border-neutral-200">
-                <div className="container mx-auto px-6 md:px-12 text-center">
-                    <h2 className="text-gold-600 font-bold tracking-widest uppercase mb-4 text-sm">Testimonials</h2>
-                    <h3 className="text-4xl md:text-5xl font-serif text-neutral-900 mb-20">{t('reviewsTitle')}</h3>
 
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        {[1, 2, 3].map((i) => (
-                            <div key={i} className="bg-white p-10 rounded-2xl border border-neutral-200 hover:border-gold-300 transition-colors text-left relative shadow-sm">
-                                <div className="absolute top-8 right-8 text-neutral-100 font-serif text-8xl leading-none -z-0">"</div>
-                                <div className="flex gap-1 mb-6 text-gold-500 relative z-10">
-                                    {[...Array(5)].map((_, j) => <Star key={j} className="w-4 h-4 fill-current" />)}
-                                </div>
-                                <p className="text-neutral-600 mb-8 relative z-10 leading-relaxed">&quot;Absolutely the best fade in Muscat. The attention to detail is unmatched, and the vibe is pure luxury.&quot;</p>
-                                <div className="flex items-center gap-4 relative z-10">
-                                    <div className="w-10 h-10 bg-neutral-200 rounded-full" /> {/* Avatar Placeholder */}
-                                    <div>
-                                        <p className="text-neutral-900 font-bold text-sm">Ahmed Al-Balushi</p>
-                                        <p className="text-neutral-500 text-xs">Regular Client</p>
-                                    </div>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
         </main>
     );
 }
