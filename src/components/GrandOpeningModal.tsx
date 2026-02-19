@@ -83,8 +83,8 @@ export default function GrandOpeningModal() {
 
                     {/* Disclaimer */}
                     <div className="text-neutral-400 text-[10px] italic space-y-0.5">
-                        <p>*Offer available for the first two days only.</p>
-                        <p className="font-arabic" dir="rtl">*العرض متاح لأول يومين فقط.</p>
+                        <p>*Free hair cut for first two days.</p>
+                        <p className="font-arabic" dir="rtl">*قص شعر مجاني لأول يومين.</p>
                     </div>
                 </div>
 
