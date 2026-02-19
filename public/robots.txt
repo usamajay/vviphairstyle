@@ -4,3 +4,6 @@ Allow: /
 
 # Host
 Host: https://www.vviphairstyle.com
+
+# Sitemaps
+Sitemap: https://www.vviphairstyle.com/sitemap.xml

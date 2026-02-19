@@ -2,16 +2,7 @@
 
 import { useEffect } from 'react';
 
-// Add TypeScript support for the custom element
-declare global {
-    namespace JSX {
-        interface IntrinsicElements {
-            'behold-widget': React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement> & {
-                'feed-id': string;
-            };
-        }
-    }
-}
+// Add TypeScript support for the custom element is now in src/types.d.ts
 
 export default function SocialFeed() {
     useEffect(() => {
@@ -43,6 +34,7 @@ export default function SocialFeed() {
             </div>
 
             <div className="container mx-auto px-4">
+                {/* @ts-ignore */}
                 <behold-widget feed-id="MWjy1R8DhkAcvCqLY8MY"></behold-widget>
             </div>
         </section>
