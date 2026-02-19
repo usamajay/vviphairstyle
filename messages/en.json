@@ -81,5 +81,14 @@
         "timings": "10:00 AM - 10:00 PM",
         "days": "Saturday - Friday",
         "callUs": "Call Us"
+    },
+    "GrandOpening": {
+        "title": "GRAND OPENING",
+        "subtitle": "YOU ARE INVITED",
+        "date": "Saturday, Feb 21, 2026 @ 10 AM",
+        "offer": "First 2 Days 100% FREE Haircuts",
+        "disclaimer": "*Offer available for the first two days only.",
+        "cta": "Get Directions",
+        "close": "Close"
     }
 }

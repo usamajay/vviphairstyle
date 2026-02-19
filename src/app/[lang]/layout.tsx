@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import FloatingWhatsApp from '@/components/FloatingWhatsApp';
+import GrandOpeningModal from '@/components/GrandOpeningModal';
 import "../globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
@@ -106,6 +107,7 @@ export default async function RootLayout({
                     <Navbar locale={lang} />
                     {children}
                     <FloatingWhatsApp />
+                    <GrandOpeningModal />
                     <Footer />
                 </NextIntlClientProvider>
             </body>

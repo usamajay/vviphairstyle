@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/navigation';
 import { Star, MapPin, Clock, Scissors, ChevronRight, Calendar } from 'lucide-react';
+import SocialFeed from '@/components/SocialFeed';
 
 export default function Home() {
     const t = useTranslations('HomePage');
@@ -167,6 +168,9 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
+            {/* Social Media Feed */}
+            <SocialFeed />
 
 
         </main>
