@@ -144,8 +144,8 @@ export default function Home() {
                             <div>
                                 <h3 className="text-xl font-bold mb-2">{t('locationTitle')}</h3>
                                 <p className="text-neutral-400">
-                                    Afaq Digital Signs PG5R+GF5, Ibra<br />
-                                    Oman Muscat, Ad Dakhiliyah Governorate
+                                    Backside of Aljood Turkish restaurant, Azaiba,<br />
+                                    Muscat, Oman
                                 </p>
                                 <Link href="/contact" className="text-gold-600 underline decoration-gold-200 underline-offset-4 hover:decoration-gold-600 transition-all">Get Directions</Link>
                             </div>
@@ -155,7 +155,7 @@ export default function Home() {
                     <div className="order-1 md:order-2 h-[400px] w-full rounded-2xl overflow-hidden hover:grayscale-0 transition-all duration-700 border border-neutral-200 shadow-xl relative group">
                         {/* Map Placeholder or Embed */}
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3656.2934836438185!2d58.37055969238281!3d23.59380531311035!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e902359b378cfdf%3A0x3ac96c51e0fcfe36!2sAfaq%20Digital%20Signs!5e0!3m2!1sen!2s!4v1767078137566!5m2!1sen!2s"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.347953257859!2d58.3897!3d23.5919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDM1JzMwLjgiTiA1OMKwMjMnMjIuOSJF!5e0!3m2!1sen!2som!4v1625641234567!5m2!1sen!2som"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}

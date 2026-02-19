@@ -34,7 +34,7 @@ export default function ContactPage() {
                                 </div>
                                 <div>
                                     <h3 className="text-xl font-bold text-neutral-900 mb-2 font-serif">{t('phoneTitle')}</h3>
-                                    <a href="tel:+96812345678" className="text-xl text-neutral-600 hover:text-gold-600 transition-colors block mb-2">{t('phone')}</a>
+                                    <a href="tel:+96890648949" className="text-xl text-neutral-600 hover:text-gold-600 transition-colors block mb-2">{t('phone')}</a>
                                     <a href="mailto:vviphairstyle@gmail.com" className="flex items-center gap-2 text-sm text-neutral-500 hover:text-neutral-900 transition-colors">
                                         <Mail className="w-4 h-4" /> vviphairstyle@gmail.com
                                     </a>
@@ -55,7 +55,7 @@ export default function ContactPage() {
                         </div>
 
                         <a
-                            href="https://wa.me/96812345678"
+                            href="https://wa.me/96890648949"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#1dbf57] text-white px-8 py-4 rounded-xl font-bold text-lg transition-all shadow-lg hover:shadow-green-500/30 w-full"
@@ -68,7 +68,7 @@ export default function ContactPage() {
                     {/* Map Embed */}
                     <div className="bg-white rounded-2xl overflow-hidden border border-neutral-200 h-[600px] shadow-xl relative hover:shadow-2xl transition-all duration-500">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3656.2934836438185!2d58.37055969238281!3d23.59380531311035!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e902359b378cfdf%3A0x3ac96c51e0fcfe36!2sAfaq%20Digital%20Signs!5e0!3m2!1sen!2s!4v1767078137566!5m2!1sen!2s"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.347953257859!2d58.3897!3d23.5919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDM1JzMwLjgiTiA1OMKwMjMnMjIuOSJF!5e0!3m2!1sen!2som!4v1625641234567!5m2!1sen!2som"
                             width="100%"
                             height="100%"
                             style={{ border: 0 }}

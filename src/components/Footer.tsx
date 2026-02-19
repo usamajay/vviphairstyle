@@ -39,7 +39,7 @@ export default function Footer() {
                         <h4 className="text-white font-bold uppercase tracking-widest text-sm">Contact</h4>
                         <div className="flex items-center gap-3 text-sm text-white">
                             <MapPin className="h-4 w-4 text-gold-500" />
-                            <span>Afaq Digital Signs PG5R+GF5, Ibra, Oman Muscat, Ad Dakhiliyah Governorate</span>
+                            <span>Backside of Aljood Turkish restaurant, Azaiba, Muscat, Oman</span>
                         </div>
                         <div className="flex items-center gap-3 text-sm text-white">
                             <Phone className="h-4 w-4 text-gold-500" />
