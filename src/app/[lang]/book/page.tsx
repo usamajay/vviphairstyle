@@ -23,7 +23,7 @@ export default function BookPage({ searchParams }: { searchParams: { service?: s
 
                 <div className="w-full h-[900px] bg-white rounded-2xl overflow-hidden shadow-2xl shadow-black/5 border border-neutral-200 relative">
                     <iframe
-                        src="https://gentsbarbershop.setmore.com"
+                        src="https://vviphairstyle.setmore.com/vvip"
                         loading="lazy"
                         style={{ width: '100%', height: '900px', border: 'none' }}
                         title="Setmore Booking"
